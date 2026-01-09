@@ -5,12 +5,12 @@
 class Dcstop < Formula
   desc ""
   homepage ""
-  version "0.1.2"
+  version "0.1.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/dev-shimada/dcstop/releases/download/v0.1.2/dcstop_Darwin_x86_64.tar.gz"
-      sha256 "68998609e907a8691a558159c2771fe779e04825834b17c48ed7d0aea1555761"
+      url "https://github.com/dev-shimada/dcstop/releases/download/v0.1.0/dcstop_Darwin_x86_64.tar.gz"
+      sha256 "55974f2deff1cb17a9ea3839f4759589c6776009448da9a0b2813932e96698e1"
 
       def install
         bin.install "dcstop"
@@ -28,8 +28,8 @@ class Dcstop < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/dev-shimada/dcstop/releases/download/v0.1.2/dcstop_Darwin_arm64.tar.gz"
-      sha256 "58fd99c222f43cd05f2cd0557b00006916796a84502188db91f80a4bb212d2c4"
+      url "https://github.com/dev-shimada/dcstop/releases/download/v0.1.0/dcstop_Darwin_arm64.tar.gz"
+      sha256 "8fcad09b6189b10c343ffea4f3e9efe392f333d4f0e10685a1b03dd544c29e42"
 
       def install
         bin.install "dcstop"
@@ -50,8 +50,8 @@ class Dcstop < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dev-shimada/dcstop/releases/download/v0.1.2/dcstop_Linux_x86_64.tar.gz"
-      sha256 "f469438ee210e0d0b0320569f77ff900e902d3f5ee2b332b0e96fa7bc02b11e4"
+      url "https://github.com/dev-shimada/dcstop/releases/download/v0.1.0/dcstop_Linux_x86_64.tar.gz"
+      sha256 "ae2012a437e87a2a008f1373a51a700ccf3db521e75ee29d3ae6e20eb3feba24"
       def install
         bin.install "dcstop"
         # Install bash completion
@@ -68,8 +68,8 @@ class Dcstop < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dev-shimada/dcstop/releases/download/v0.1.2/dcstop_Linux_arm64.tar.gz"
-      sha256 "bc3aacb3dcba06eb98a8e1511c58788c81851baa0030c5f70bb3f854d445d62e"
+      url "https://github.com/dev-shimada/dcstop/releases/download/v0.1.0/dcstop_Linux_arm64.tar.gz"
+      sha256 "ed62f3a89310c101ab666abfa27374eca203c66fb88cd0cb781667ace0cea922"
       def install
         bin.install "dcstop"
         # Install bash completion
