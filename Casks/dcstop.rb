@@ -3,7 +3,7 @@ cask "dcstop" do
   name "dcstop"
   desc "A CLI tool to easily stop devcontainers"
   homepage "https://github.com/dev-shimada/dcstop"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "dcstop" do
   on_macos do
     on_intel do
       url "https://github.com/dev-shimada/dcstop/releases/download/v#{version}/dcstop_Darwin_x86_64.tar.gz"
-      sha256 "fe20f1859c4279bed99ae13d0edf95b9b3648d35f5e1e59cc733d3e2821dbd43"
+      sha256 "b968c582e1ae57ff2644a2ff18d3d6b4f0ca749cf354255373513526c56f153b"
     end
     on_arm do
       url "https://github.com/dev-shimada/dcstop/releases/download/v#{version}/dcstop_Darwin_arm64.tar.gz"
-      sha256 "fcc2ce6881c07a4a906218bcada0e86ffb59d99e941d7c151c81df5574e247bf"
+      sha256 "63ddec967483670261a82a67d6841597dddab28d703f70594919abceb6cad5db"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dev-shimada/dcstop/releases/download/v#{version}/dcstop_Linux_x86_64.tar.gz"
-      sha256 "9b3e370c0b5770a8a5ad6fc14fcb5d602f8d95c89c7473dc2e33733dddf41b6d"
+      sha256 "07afe2736b9386e607c18677186ee851366030f0e6de386fe232268561e33a41"
     end
     on_arm do
       url "https://github.com/dev-shimada/dcstop/releases/download/v#{version}/dcstop_Linux_arm64.tar.gz"
-      sha256 "b90f8d3953dc7ec2cd82b87e0d88a1906c8bc03206af5701e2d0f83ede448979"
+      sha256 "a25ae9d599940d26c641bef3816d7b009220ee38fafa4c57dad34fe6d579702d"
     end
   end
 
