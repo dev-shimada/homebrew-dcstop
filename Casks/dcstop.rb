@@ -4,22 +4,22 @@ cask "dcstop" do
 
   on_macos do
     on_intel do
-      sha256 "158445a58397c3c7d109199b3ba8471b2af995be1383a87e966f9d6d8374001d"
+      sha256 "3947a37b521788639b8370e8b3f509a295adf9033fefed64a59a4fa77ab11d84"
       url "https://github.com/dev-shimada/dcstop/releases/download/v#{version}/dcstop_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "626f09d7bcaa4f3ece1bb31bbcdc595b246a9459cd05d7726ceb53b087a558fc"
+      sha256 "614684a9e5a566971bb64f5f7ef334c1bafdffafbf6bcb6d3e59e82ea99275d6"
       url "https://github.com/dev-shimada/dcstop/releases/download/v#{version}/dcstop_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "44efdea9594b4f340c0210c0acdac52c48edb0c2eb1c1ff00283a29993f1533c"
+      sha256 "15a3785acae8e7b9cc823d71e2ca17f285156dce68508c38380e08ce234ab3a4"
       url "https://github.com/dev-shimada/dcstop/releases/download/v#{version}/dcstop_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "7758b3eb203dd844fbc869b7d59612f94e66f125dfd15b1982e7f028390573d8"
+      sha256 "e15028cadc5e4444556529d73131730d55cc3ddf6ef7dc4cb61b90a22e5d7421"
       url "https://github.com/dev-shimada/dcstop/releases/download/v#{version}/dcstop_Linux_arm64.tar.gz"
     end
   end
